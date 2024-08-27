@@ -13,7 +13,7 @@ export const metadata = {
 
 
 
-const DynamicTypewritter = dynamic(() =>
+const DynamicTypewriter = dynamic(() =>
   import('../components/Typewriter').then((mod) => mod.Typewriter), {
     ssr: false,
   }
@@ -24,15 +24,11 @@ export default function Home() {
   return (
     <div className={styles.index}>
       <div className={styles.mainBox}>
-        <div className={styles.mainbox1}>
-          <Image src="/me.png" alt="cr7" width={150} height={150} />
-        </div>
-
         <h1>
           Hey, I&apos;m <b>Vishal</b>
         </h1>
         <p>
-          I am a <DynamicTypewritter />
+          I am a <DynamicTypewriter />
         </p>
         <p>
           I&apos;m a 21 year old fullstack developer, mostly working on MERN
@@ -59,7 +55,7 @@ export default function Home() {
       <br></br>
       <div className={styles.identity}>
         <div>
-          <Image src="/me.jpg" alt="cr7" width={100} height={100} />
+          <Image src="/me.png" alt="cr7" width={100} height={100} />
           <p>I&apos;m mostly online at X </p>
         </div>
         <div className={styles.pulseContainer}>
