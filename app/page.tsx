@@ -33,6 +33,10 @@ export default function Home() {
           <Image src="/me.png" alt="cr7" width={100} height={100} />
           <p>I&apos;m mostly online at X </p>
         </div>
+        <div className={styles.pulseContainer}>
+          <div className={styles.pulse}></div>
+          <span className={styles.openForProjects}>Open for projects</span>
+        </div>
       </div>
 
       <p className={styles.intro}>
