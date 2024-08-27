@@ -13,7 +13,7 @@ export const metadata = {
 
 
 
-const DynamicTypewriter = dynamic(() =>
+const DynamicTypewritter = dynamic(() =>
   import('../components/Typewriter').then((mod) => mod.Typewriter), {
     ssr: false,
   }
@@ -32,7 +32,7 @@ export default function Home() {
           Hey, I&apos;m <b>Vishal</b>
         </h1>
         <p>
-          I am a <DynamicTypewriter />
+          I am a <DynamicTypewritter />
         </p>
         <p>
           I&apos;m a 21 year old fullstack developer, mostly working on MERN
