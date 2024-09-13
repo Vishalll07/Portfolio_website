@@ -67,7 +67,7 @@ export default function Home() {
       <p className={styles.intro}>
         Here is my
         <Link
-          href="https://ivory-colline-89.tiiny.site"
+          href="https://maroon-emmi-28.tiiny.site"
           target="_blank"
           rel="noreferrer"
         >
