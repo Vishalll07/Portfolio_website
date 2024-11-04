@@ -40,7 +40,7 @@ export default function Home() {
           I love Cars, Engines, Tech and building things. Some of my recent
           projects I have created is a Live Editor{" "}
           <Link
-            href="https://github.com/Vishalll07/collaborativeEditor"
+            href="https://collaborative-editor-5vu5.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
